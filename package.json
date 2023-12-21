@@ -1,0 +1,19 @@
+{
+  "name": "frontend-mentor",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/web": "^0.0.129",
+    "bun-types": "latest",
+    "elm": "^0.19.1-6",
+    "parcel": "^2.10.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
