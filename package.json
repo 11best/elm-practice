@@ -8,6 +8,7 @@
     "dev": "parcel src/index.html"
   },
   "devDependencies": {
+    "@parcel/transformer-elm": "^2.10.3",
     "@types/web": "^0.0.129",
     "bun-types": "latest",
     "elm": "^0.19.1-6",
