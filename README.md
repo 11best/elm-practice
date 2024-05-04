@@ -1,5 +1,12 @@
 # frontend-mentor
 
+### prerequisite
+- node
+- bun
+- elm
+- elm-test elm-format
+
+
 To install dependencies:
 
 ```bash
