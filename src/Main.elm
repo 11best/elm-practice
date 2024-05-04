@@ -2,8 +2,8 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (Html, button, div, text)
-import Html.Events exposing (onClick)
 import Html.Attributes as Attr
+import Html.Events exposing (onClick)
 
 
 type alias Model =
@@ -32,8 +32,13 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div [ Attr.class "bg-green-500"]
-        [ button [ onClick Increment ] [ text "+1" ]
+    div []
+        [ button
+            [ onClick Increment
+            , Attr.class
+                "bg-red-400"
+            ]
+            [ text "+1" ]
         , div [] [ text <| String.fromInt model.count ]
         , button [ onClick Decrement ] [ text "-1" ]
         ]
